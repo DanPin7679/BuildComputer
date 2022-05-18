@@ -95,7 +95,8 @@ const tokenizer = (input) => {
   //       console.log("Tokens compile!!");
   //     }
   //   );
-  return tokens;
+  console.log(tokens);
+  return "tokens";
 };
 
 export default tokenizer;
