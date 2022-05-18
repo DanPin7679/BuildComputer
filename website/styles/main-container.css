@@ -1,0 +1,26 @@
+.code {
+  grid-area: code;
+}
+.webAss {
+  grid-area: webAss;
+}
+.machineCode {
+  grid-area: machineCode;
+}
+.hardware {
+  grid-area: hardware;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "code machineCode"
+    "webAss hardware";
+  gap: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

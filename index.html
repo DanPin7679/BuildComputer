@@ -5,9 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <title>Build Computer</title>
   </head>
   <body>
+    <div class="grid-container">
+      <div class="code">
+        <div class="card">
+          <p class="title">Your code</p>
+          <div class="code-form">
+            <textarea
+              id="code-text"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+            <button id="code-submit">Submit Code</button>
+          </div>
+        </div>
+      </div>
+      <div class="webAss">
+        <div class="card">
+          <p class="title">WebAssembly</p>
+          <p id="webAssText"></p>
+        </div>
+      </div>
+      <div class="machineCode">
+        <div class="card">
+          <p class="title">Machine Language</p>
+        </div>
+      </div>
+      <div class="hardware">
+        <div class="card">
+          <p class="title">Machine Language</p>
+        </div>
+      </div>
+    </div>
+
     <canvas id="canvas1"></canvas>
     <script type="module" src="index.js"></script>
   </body>

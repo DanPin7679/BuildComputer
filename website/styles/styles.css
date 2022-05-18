@@ -1,0 +1,6 @@
+@import "./variables.css";
+@import "./main-styles.css";
+@import "./main-container.css";
+@import "./code-form.css";
+
+@import "./components/card.css";
