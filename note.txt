@@ -1,0 +1,6 @@
+Create new branch = <branch_name>
+git branch <branch_name>
+Switch to 
+git checkout <branch_name>
+Create branch and switch
+git checkout -b <branch-name>
