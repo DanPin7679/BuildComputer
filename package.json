@@ -1,0 +1,19 @@
+{
+  "name": "build computer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node gates-logic/gates-logic.js --1 --0",
+    "test": "node backend/businessLogic/tests/tests-gates-logic.js",
+    "server": "nodemon backend/server.js",
+    "runFile": "node backend/businessLogic/graph-logic/allPaths.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
